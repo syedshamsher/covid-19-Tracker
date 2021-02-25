@@ -1,5 +1,21 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    background:white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(155, 155, 156);
+    width: 5px;
+  }
+
 body{
-    background-color: rgb(252, 249, 245);
+    background-color: white;
+    border: 10px solid #6C63FF;
+    padding: 10px
 }
 
 .container{
@@ -10,8 +26,19 @@ body{
     margin-bottom: 50px;
 }
 
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.logo {
+    width: 50%;
+}
+
 .pic {
-    width: 300px;
+    width: 40%;
 }
 @media (max-width: 770px) {
     .container {
