@@ -11,3 +11,20 @@
 
 ## <code>Sneak Peak</code>
 ![img](./covid-19.gif)
+
+### Installation and Setup Instructions
+
+Clone this repository. 
+You will need node and npm installed globally on your machine. <br>
+Installation: npm install To install dependencies <br>
+Run: npm run start
+
+## Tech Library used:
+<ul>
+  <li>axios</li>
+  <li>material-ui</li>
+  <li>chart.js</li>
+  <li>react-countup</li>
+</ul>
+
+### Happy Hacking
