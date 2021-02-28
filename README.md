@@ -26,5 +26,3 @@ Run: npm run start
   <li>chart.js</li>
   <li>react-countup</li>
 </ul>
-
-### Happy Hacking
